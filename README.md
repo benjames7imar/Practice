@@ -9,7 +9,7 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
 
 ------------------------------------------------------------------------
 ## Table of contents
-*[Strategy of the Robot](Strategy-of-the-Robot)
+*[Strategy of the Robot](#Strategy-of-the-Robot)
 
 ------------------------------------------------------------------------
 
