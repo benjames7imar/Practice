@@ -25,9 +25,9 @@
  ## The Team <a class="anchor" id="team"></a>
 
  ### Fahad Al-Zughaibi
-<p align="center">
-![image alt](https://github.com/benjames7imar/Practice/blob/3c9782deecb8bf21a58e5a583c5fcd021925d552/Fahad.jpeg)
-  
+ <p align="center">
+![image alt] (https://github.com/benjames7imar/Practice/blob/3c9782deecb8bf21a58e5a583c5fcd021925d552/Fahad.jpeg)
+  </p>
 Our robot combines computer vision, sensor feedback, and intelligent
 control to navigate the field in both open and obstacle rounds.
 
