@@ -12,8 +12,10 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
 * [Strategy of the Robot](#Strategy-of-the-Robot)
  * [Open Rounded](#open)
  * [Obstacle Round](#obstacle)
-* [How the Ardino](#hArduino)
+* [How the Arduino](#hArduino)
 * [Robot Components](#RobotComponents)
+ * [Arduino Mega2560](#arduniomega)
+ * [Husky Lens 2](#huskylens)
 ------------------------------------------------------------------------
 
 ## Strategy of the Robot <a class="anchor" id="strategy-of-the-Robot"></a>
@@ -50,7 +52,7 @@ Central Control: Manages the main software loop to operate the robot and execute
 
 ## Robot Components  <a class="anchor" id="RobotComponents"></a>
 
-### Arduino Mega 2560
+### Arduino Mega 2560  <a class="anchor" id="arduinomega"></a>
 The Arduino Mega 2560 serves as the main controller. It receives data from the HUSKYLENS 2 and controls:
 
 DC motors for movement.
@@ -59,7 +61,7 @@ A buzzer for sound alerts. It also reads the MPU6050 gyro sensor to track headin
 
 ------------------------------------------------------------------------
 
-### HUSKYLENS 2
+### HUSKYLENS 2 <a class="anchor" id="huskylens"></a>
 The HuskyLens 2 is an AI-powered machine vision sensor designed to act as both the "eyes and brain" for robotics and embedded systems.
 
 Edge AI Processing: It independently analyzes images to recognize colors, objects, lines, and faces, taking the computational load off the main microcontroller.
