@@ -48,7 +48,7 @@ reacting dynamically to obstacles.
 
 ------------------------------------------------------------------------
 
-## how the Arduino Mega 2560 was utilized in the robot: <a class="anchor" id="hArduino"></a>
+## how the Arduino Mega 2560 was utilized in the robot: <a class="anchor" id="harduino"></a>
 
 The ESP32 acts as the low-level controller, receiving commands from the
 Raspberry Pi and controlling the actuators.
@@ -59,7 +59,7 @@ Central Control: Manages the main software loop to operate the robot and execute
 
 ------------------------------------------------------------------------
 
-## Robot Components  <a class="anchor" id="RobotComponents"></a>
+## Robot Components  <a class="anchor" id="robotcomponents"></a>
 
 ### Arduino Mega 2560  <a class="anchor" id="arduinomega"></a>
 The Arduino Mega 2560 serves as the main controller. It receives data from the HUSKYLENS 2 and controls:
@@ -89,7 +89,7 @@ Base Chassis & Rails: Provides the lower perforated deck and main chassis rails 
 
 ------------------------------------------------------------------------
 
-### Servo Motors <a class="anchor" id="sMotors"></a>
+### Servo Motors <a class="anchor" id="smotors"></a>
 
 Used for steering and camera adjustments. Provide precise angular
 positioning.
@@ -109,7 +109,7 @@ speeds. Improves cornering and stability.
 
 ------------------------------------------------------------------------
 
-### DF Ultrasonic Sensors <a class="anchor" id="usSensor"></a>
+### DF Ultrasonic Sensors <a class="anchor" id="ussensor"></a>
 
 Placed around the robot to provide *360° obstacle detection*. More
 accurate and stable than traditional ultrasonic modules.
@@ -123,7 +123,7 @@ Raspberry Pi via ESP32.
 
 ------------------------------------------------------------------------
 
-### Battery <a class="anchor" id="Battery"></a>
+### Battery <a class="anchor" id="battery"></a>
 
 A rechargeable battery serves as the primary power source for the entire
 system. It is carefully selected to provide enough current to support
@@ -133,7 +133,7 @@ competition without recharging.
 
 ------------------------------------------------------------------------
 
-### Voltage Regulator <a class="anchor" id="vRegulator"></a>
+### Voltage Regulator <a class="anchor" id="vregulator"></a>
 
 Since the battery provides higher voltage than the sensors and
 controllers can handle, a voltage regulator is used to step it down to a
@@ -142,7 +142,7 @@ sensitive electronics such as the ESP32 and DF ultrasonic sensors.
 
 ------------------------------------------------------------------------
 
-### Laser Cutting <a class="anchor" id="Lasercutting"></a>
+### Laser Cutting <a class="anchor" id="lasercutting"></a>
 
 A laser cutter was used to manufacture acrylic plates that serve as
 mounting bases for electronics. Acrylic was chosen for its rigidity and
