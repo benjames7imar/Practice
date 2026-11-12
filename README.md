@@ -33,6 +33,10 @@
 
 ![image alt](https://github.com/benjames7imar/Practice/blob/bef8898f0bb3494be66ec2c8e1f19820696e2cb2/Ali.jpeg)
 
+### Yousef Akram 
+
+![image atl](https://github.com/benjames7imar/Practice/blob/dd0d96e82fb2a3a4f603fadafe8879ac02d2b65a/Yousef.jpeg)
+
 Our robot combines computer vision, sensor feedback, and intelligent
 control to navigate the field in both open and obstacle rounds.
 
