@@ -14,8 +14,17 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
  * [Obstacle Round](#obstacle)
 * [How the Arduino](#hArduino)
 * [Robot Components](#RobotComponents)
- * [Arduino Mega2560](#arduniomega)
+ * [Arduino Mega2560](#arduinomega)
  * [Husky Lens 2](#huskylens)
+ * [RN AI robot structure](#structure)
+ * [Servo Motors](#sMotors)
+ * [DC Motor](#dcMotors)
+ * [Diffrential Mechanism](#diff)
+ * [Ultrasonic Sensor](#usSensor)
+ * [Gyro Sencor](#gyro)
+ * [Voltage Regulator](#vRegulator)
+ * [Battery](#Battery)
+ * [Laser Cutter](#lasercutter)
 ------------------------------------------------------------------------
 
 ## Strategy of the Robot <a class="anchor" id="strategy-of-the-Robot"></a>
@@ -71,7 +80,7 @@ Ready-to-Use Data: It transmits processed results (X, Y coordinates, width, heig
 
 ------------------------------------------------------------------------
 
-### RN AI robot structure 
+### RN AI robot structure <a class="anchor" id="structure"></a>
 
 Base Chassis & Rails: Provides the lower perforated deck and main chassis rails that form the structural foundation of the robot.  
  Wheels & Drivetrain: Supplies the pre-built wheels and geared drive hubs used for mobility and movement.
@@ -79,41 +88,42 @@ Base Chassis & Rails: Provides the lower perforated deck and main chassis rails 
 
 
 ------------------------------------------------------------------------
-### Servo Motors
+
+### Servo Motors <a class="anchor" id="sMotors"></a>
 
 Used for steering and camera adjustments. Provide precise angular
 positioning.
 
 ------------------------------------------------------------------------
 
-### DC Motors
+### DC Motors <a class="anchor" id="dcMotors"></a>
 
 Drive the robot's wheels, enabling forward and backward movement.
 
 ------------------------------------------------------------------------
 
-### Differential Mechanism
+### Differential Mechanism <a class="anchor" id="diff"></a>
 
 Ensures smooth turning by allowing rear wheels to rotate at different
 speeds. Improves cornering and stability.
 
 ------------------------------------------------------------------------
 
-### DF Ultrasonic Sensors
+### DF Ultrasonic Sensors <a class="anchor" id="usSensor"></a>
 
 Placed around the robot to provide *360° obstacle detection*. More
 accurate and stable than traditional ultrasonic modules.
 
 ------------------------------------------------------------------------
 
-### Gyro Sensor
+### Gyro Sensor <a class="anchor" id="gyro"></a>
 
 Measures angular velocity and orientation, sending feedback to the
 Raspberry Pi via ESP32.
 
 ------------------------------------------------------------------------
 
-### Battery
+### Battery <a class="anchor" id="Battery"></a>
 
 A rechargeable battery serves as the primary power source for the entire
 system. It is carefully selected to provide enough current to support
@@ -123,7 +133,7 @@ competition without recharging.
 
 ------------------------------------------------------------------------
 
-### Voltage Regulator
+### Voltage Regulator <a class="anchor" id="vRegulator"></a>
 
 Since the battery provides higher voltage than the sensors and
 controllers can handle, a voltage regulator is used to step it down to a
@@ -132,7 +142,7 @@ sensitive electronics such as the ESP32 and DF ultrasonic sensors.
 
 ------------------------------------------------------------------------
 
-### Laser Cutting
+### Laser Cutting <a class="anchor" id="Lasercutting"></a>
 
 A laser cutter was used to manufacture acrylic plates that serve as
 mounting bases for electronics. Acrylic was chosen for its rigidity and
