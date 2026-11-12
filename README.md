@@ -10,12 +10,13 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
 ------------------------------------------------------------------------
 ## Table of contents
 *[Strategy of the Robot](#Strategy-of-the-Robot)
-
+   *[Open Rounded](#open)
+   *[Obstacle Round](#obstacle)
 ------------------------------------------------------------------------
 
-## Strategy of the Robot <a class="anchor" id="Strategy-of-the-Robot"></a>
+## Strategy of the Robot <a class="anchor" id="strategy-of-the-Robot"></a>
 
-### Open Round
+### Open Round  <a class="anchor" id="open"></a>
 
  In the open round, the robot's task is to complete three full loops around the arena without colliding with walls.  
  The HuskyLens 2 camera analyzes live frames (identifying blue and orange markers) to keep the robot on track and detect intersections.  
@@ -24,7 +25,7 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
 consistent distance tracking at every corner.
 
 ------------------------------------------------------------------------
-### Obstacle Round
+### Obstacle Round <a class="anchor" id="obstacle"></a>
 
 In the obstacle round, colored pillars (green and red) are placed along the path. The HuskyLens 2 processes the video, applies severity-based filtering, and identifies each pillar's color, position, and distance.  
  Green Pillar ➔ The Arduino Mega 2560 commands the steering servo and motor to turn left around the pillar.  
