@@ -9,9 +9,11 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
 
 ------------------------------------------------------------------------
 ## Table of contents
-*[Strategy of the Robot](#Strategy-of-the-Robot)
- *[Open Rounded](#open)
- *[Obstacle Round](#obstacle)
+* [Strategy of the Robot](#Strategy-of-the-Robot)
+ * [Open Rounded](#open)
+ * [Obstacle Round](#obstacle)
+* [How the Ardino](#hArduino)
+* [Robot Components](#RobotComponents)
 ------------------------------------------------------------------------
 
 ## Strategy of the Robot <a class="anchor" id="strategy-of-the-Robot"></a>
@@ -35,7 +37,7 @@ reacting dynamically to obstacles.
 
 ------------------------------------------------------------------------
 
-## how the Arduino Mega 2560 was utilized in the robot:
+## how the Arduino Mega 2560 was utilized in the robot: <a class="anchor" id="hArduino"></a>
 
 The ESP32 acts as the low-level controller, receiving commands from the
 Raspberry Pi and controlling the actuators.
@@ -46,7 +48,7 @@ Central Control: Manages the main software loop to operate the robot and execute
 
 ------------------------------------------------------------------------
 
-## Robot Components
+## Robot Components  <a class="anchor" id="RobotComponents"></a>
 
 ### Arduino Mega 2560
 The Arduino Mega 2560 serves as the main controller. It receives data from the HUSKYLENS 2 and controls:
