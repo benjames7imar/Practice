@@ -9,7 +9,7 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
 
 ------------------------------------------------------------------------
 ## Table of contents
-* [Strategy of the Robot](#Strategy-of-the-Robot)
+* [Strategy of the Robot](#strategy)
  * [Open Rounded](#open)
  * [Obstacle Round](#obstacle)
 * [How the Arduino](#hArduino)
@@ -27,7 +27,7 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
  * [Laser Cutter](#lasercutter)
 ------------------------------------------------------------------------
 
-## Strategy of the Robot <a class="anchor" id="strategy-of-the-Robot"></a>
+## Strategy of the Robot <a class="anchor" id="strategy"></a>
 
 ### Open Round  <a class="anchor" id="open"></a>
 
