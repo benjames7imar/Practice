@@ -10,8 +10,8 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
 ------------------------------------------------------------------------
 ## Table of contents
 *[Strategy of the Robot](#Strategy-of-the-Robot)
-   *[Open Rounded](#open)
-   *[Obstacle Round](#obstacle)
+ *[Open Rounded](#open)
+ *[Obstacle Round](#obstacle)
 ------------------------------------------------------------------------
 
 ## Strategy of the Robot <a class="anchor" id="strategy-of-the-Robot"></a>
