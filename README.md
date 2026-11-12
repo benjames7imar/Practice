@@ -18,7 +18,7 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
  * [Husky Lens 2](#huskylens)
  * [RN AI robot structure](#structure)
  * [Servo Motors](#sMotors)
- * [DC Motor](#dcMotors)
+ * [DC Motor](#dc)
  * [Diffrential Mechanism](#diff)
  * [Ultrasonic Sensor](#usSensor)
  * [Gyro Sencor](#gyro)
@@ -96,7 +96,7 @@ positioning.
 
 ------------------------------------------------------------------------
 
-### DC Motors <a class="anchor" id="dcMotors"></a>
+### DC Motors <a class="anchor" id="dc"></a>
 
 Drive the robot's wheels, enabling forward and backward movement.
 
