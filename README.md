@@ -1,14 +1,10 @@
 # Practice
-## Welcome! We are TEAM Saudi innovators 2030
-Our robot combines computer vision, sensor feedback, and intelligent
-control to navigate the field in both open and obstacle rounds.
-
-Here is the YouTube video link for our robot open round → \[[https://youtu.be/EO0l7DpHomU?si=pYyQ_6kdtGGWtemz](https://youtu.be/YWj9p0f76Xo?si=jFrtSBgD9MeRDS3l)]
-
-Here is the YouTube video link for our robot obstacles challenge  → \[[[https://youtu.be/EO0l7DpHomU?si=pYyQ_6kdtGGWtemz](https://youtu.be/8Ka8CMJKAJQ?si=VRpm_-UIFWR8-USU)https://youtu.be/8Ka8CMJKAJQ?si=VRpm_-UIFWR8-USU]
-
+<center><h1> Saudi Innovators 2030 </center>
+ This repository contains the documentation for the Saudi Innovators 2030 team's robot for the 2026 World Robot Olympiad Future Engineers competition. The robot was designed and built by a team of three students.
+ 
 ------------------------------------------------------------------------
-## Table of contents
+ ## Table of contents
+* [The Team](#team) 
 * [Strategy of the Robot](#strategy)
   * [Open Rounded](#open)
   * [Obstacle Round](#obstacle)
@@ -25,6 +21,20 @@ Here is the YouTube video link for our robot obstacles challenge  → \[[[https:
   * [Voltage Regulator](#vregulator)
   * [Battery](#battery)
   * [Laser Cutter](#lasercutting)
+------------------------------------------------------------------------
+ ## The Team <a class="anchor" id="team"></a>
+
+ ### Fahad Al-Zughaibi
+<p align="center">
+
+  
+Our robot combines computer vision, sensor feedback, and intelligent
+control to navigate the field in both open and obstacle rounds.
+
+Here is the YouTube video link for our robot open round → \[[https://youtu.be/EO0l7DpHomU?si=pYyQ_6kdtGGWtemz](https://youtu.be/YWj9p0f76Xo?si=jFrtSBgD9MeRDS3l)]
+
+Here is the YouTube video link for our robot obstacles challenge  → \[[[https://youtu.be/EO0l7DpHomU?si=pYyQ_6kdtGGWtemz](https://youtu.be/8Ka8CMJKAJQ?si=VRpm_-UIFWR8-USU)https://youtu.be/8Ka8CMJKAJQ?si=VRpm_-UIFWR8-USU]
+
 ------------------------------------------------------------------------
 
 ## Strategy of the Robot <a class="anchor" id="strategy"></a>
